@@ -16,3 +16,4 @@ This repository represents the simplest way to build a Redoc site from a YAML fi
 openapi preview-docs openapi.yaml
 ```
 7. Save to a GitHub repository (optional)
+8. Preview server running at http://127.0.0.1:8080 
