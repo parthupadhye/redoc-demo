@@ -1,6 +1,6 @@
 openapi: 3.0.3
 servers: 
-  - url: 'http://booksapi.com'
+  - url: 'http://booksapi.com's
 info:
   version: 1.0.0
   title: BooksAPI
@@ -14,7 +14,8 @@ info:
   x-logo:
     url: 'https://apis.guru/openapi-template/logo.png'
   description: >
-    # Your description here
+    # Your description here 
+    Find out how to create a GitHub repo for your OpenAPI definition. 
 externalDocs:
   description: Find out how to create a GitHub repo for your OpenAPI definition.
   url: 'https://github.com/Rebilly/generator-openapi-repo'
