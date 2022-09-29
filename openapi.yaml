@@ -50,6 +50,8 @@ externalDocs:
 paths:
   /books:
     get:
+      tags: 
+        -  Retrieval
       summary: Retrieve books
       description: |
           Use this method to retirve books their ids or using a list query object.
@@ -104,6 +106,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
     post:
+      tags: 
+        -  Create or update
       summary: Create a book
       description: |
         #### Minimum properties
@@ -154,6 +158,8 @@ paths:
         schema:
           $ref: '#/components/schemas/ObjectId'
     get:
+      tags: 
+        -  Retrieval
       summary: Retrieve a book
       operationId: getBookById
       responses:
@@ -177,6 +183,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
     post:
+      tags: 
+        -  Create or update
       summary: Update a book
       description: |
         Update a book. Some description of the operation.
