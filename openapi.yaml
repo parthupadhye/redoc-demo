@@ -42,7 +42,15 @@ info:
       }
     }
     ```
-    ## Customize Redoc view for the API
+    ### Available endpoints
+    | Use case      | Endpoint | Method     |
+    | :---        |  :---        | :---        |
+    | Create books      | `/books`  | `POST`   |
+    | Update a book   | `/books/{bookId}`  | `POST`   |
+    | Retrieve books      | `/books`  | `GET`   |
+    | Retrieve a book   | `/books/{bookId}`  | `GET`   |
+    
+    ## Theming
     [Link to Themes in Redoc](https://redocly.com/docs/developer-portal/configuration/theme/#example-themets-file)
 externalDocs:
   description: API Use Cases
